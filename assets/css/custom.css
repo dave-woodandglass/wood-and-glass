@@ -109,7 +109,7 @@ body > main { overflow: hidden; }
   background:#30271f; color:#f5f1e9;
 }
 .maker-mark { display:flex; align-items:center; justify-content:center; min-height:220px; }
-.maker-mark img { display:block; max-width:min(100%,340px); max-height:230px; object-fit:contain; }
+.maker-mark img { display:block; width:340px; max-width:100%; max-height:230px; object-fit:contain; }
 .maker-copy .eyebrow { color:#c5a477; }
 .maker-copy h2 { color:#f5f1e9; }
 .maker-copy > p:not(.eyebrow) { max-width:520px; color:#d4c9bb; font-size:1.02rem; line-height:1.8; }
