@@ -10,8 +10,8 @@ timeZone = "America/New_York"
 timeout = "120s"
 
 [params]
-defaultTheme = "dark"
-description = "Wood and Glass"
+defaultTheme = "light"
+description = "Handcrafted wood and glass by Dave Hamrick. Disabled U.S. Navy veteran-owned and made in Virginia."
 [params.socialIcons]
 # facebook = "https://www.facebook.com/"
 # instagram = "https://www.instagram.com/"
