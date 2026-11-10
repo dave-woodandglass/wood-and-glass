@@ -77,3 +77,8 @@ includeFields = "ImageDescription|Orientation"
 [services]
 [services.rss]
 limit = 100
+
+[[menus.main]]
+name = "Contact Dave"
+url = "/contact/"
+weight = 7
