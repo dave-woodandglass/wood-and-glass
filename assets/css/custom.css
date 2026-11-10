@@ -137,3 +137,30 @@ body > main { overflow: hidden; }
   .work-card { grid-template-columns:1fr; }
   .work-card > img { aspect-ratio:16/9; min-height:0; }
 }
+
+.shop-band {
+  margin: 5rem auto;
+  padding: 4rem 1.5rem;
+  background: #eae2d6;
+  text-align: center;
+}
+.shop-band h2 {
+  margin: 0;
+  color: #30271f;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 3.6vw, 3.25rem);
+  font-weight: 500;
+  letter-spacing: -.025em;
+}
+.shop-band > p:not(.eyebrow) {
+  max-width: 700px;
+  margin: 1.2rem auto 0;
+  color: #65594d;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+.shop-band .hero-actions { justify-content: center; }
+#upcoming-events { scroll-margin-top: 2rem; }
+@media (max-width: 760px) {
+  .shop-band { margin: 3.5rem 1.25rem; padding: 3rem 1.4rem; }
+}
